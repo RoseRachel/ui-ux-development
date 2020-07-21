@@ -1,0 +1,84 @@
+/*script{
+	background-color: #003300;
+	font-color: white;
+}*/
+
+
+body
+{
+  margin:0;
+  padding:0;
+  background: #4d0000 ;    
+
+}
+.box{
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #fff;
+  margin-left: 50px;
+  width: calc(100%-50px); 
+  text-shadow:  0 0 3px #FF0000, 0 0 5px #0000FF;;
+
+ }
+ .word{
+  display: inline-block;
+  color: #ff0;
+ }
+ .word span{
+  position: absolute;
+  top:0;
+  overflow: hidden;
+  animation: animate 10s linear infinite;
+  opacity: 0;
+}
+@keyframes animate{
+  0%{
+    opacity: 0;
+    transform: translateY(-50px);
+
+  }
+  2%{
+    opacity: 1;
+    transform: translateY(0px);
+    
+  }
+  18%
+  {
+    opacity: 1;
+    transform:translateY(0px);
+  }
+   20%
+   {
+    opacity: 0;
+    transform:translateY(50px);
+  }
+  100%
+  {
+    opacity: 0;
+animation-delay: 0s;
+
+}
+{
+  transform:translateY(50px);
+  }
+}
+.word span:nth-child(1)
+{
+animation-delay: 0s;
+}
+.word span:nth-child(2)
+{
+animation-delay: 2s;
+}
+.word span:nth-child(3)
+{
+animation-delay: 4s;
+}
+.word span:nth-child(6)
+{
+animation-delay: 5s;
+}
