@@ -1,0 +1,45 @@
+<DOCTYPE html>
+<html>
+<body>
+
+<link rel= "stylesheet" href="css/form.css">
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Please write your name");  
+  return false;  
+}else if(password.length<6){  
+  alert("Invalid Password");  
+  return false;  
+  }  
+}  
+</script>  
+
+<form name="loginform" method="post" action="abc.jsp" onsubmit="return validateform()" >  
+
+
+  <div class="login-form"> 
+   <h1> Madaraka Express-Online Booking </h1> 
+   
+   <img src="https://pbs.twimg.com/profile_banners/474659813/1571816884/1080x360"> 
+   <form> 
+    <label>Train Type</label> 
+    <input type="text" name="Train Type" placeholder="Inter-County"> 
+    <label>From</label> 
+    <input type="email" name="From" placeholder="Select"> 
+    <label>To</label> 
+    <input type="text" name="To" placeholder="Select"> 
+    <label>Departure Date</label> 
+    <input type="date" name="dd/mm/yyyy" <="" form=""> 
+   </form> 
+  </div> 
+ 
+
+
+
+</div>
+</body>
+</html>

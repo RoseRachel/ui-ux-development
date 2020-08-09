@@ -1,0 +1,111 @@
+header{
+background-color: green;
+}
+header nav ul{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+h2{
+
+  text-shadow: 2px 2px yellow;
+  text-align: center;
+  font-size: 25px;
+}
+.head{
+  text-align: center;
+}
+header nav li{
+  list-style: none;
+  float: left;
+}
+header nav ul li a{
+  color: black;
+  padding: 20px;
+  float:left;
+  font-size:20px;
+  text-decoration: none;}
+header nav ul li a:hover{
+color: #f0c54f;
+}
+header nav ul li a:active {
+  color: yellow;
+}
+header nav ul{
+  padding:0;
+  margin:0;
+}
+header nav img{
+  float: left;
+}
+body{
+  background-image: url("https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  color: black;
+  font-family: Arial, Helvetica,sans-serif;
+  background-repeat: repeat;
+  background-size: 100%;
+  font-size: 20px;
+}
+/*start header*/
+header{
+background-color: white;
+}
+header nav ul{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+header nav li{
+  list-style: none;
+  float: left;
+}
+header nav ul li a{
+  color: #ccc:;
+  padding: 20px;
+  float:left;
+  font-size:20px;
+  text-decoration: none;
+}
+footer{
+  font-size: 12px;
+  text-align: center;
+  padding: 50px 0;
+  color: #ccc;
+  background-color: 0,0,0,0.5;
+}
+header nav ul li a:hover{
+color:yellow;
+}
+header nav ul li a:active {
+  color: yellow;
+}
+header nav ul{
+  padding:0;
+  margin:0;
+}
+.container{
+  background-color: #fff;
+  max-width:1200px;
+  margin: 0 auto;
+  min-height: 200px;
+  padding: 40px;
+  margin: 0 auto;
+}
+.container h1{
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 800px)
+{
+  my-info{
+    width: 98%;
+    padding: 1%;
+  }
+}
+@media screen and (max-width: 800px)
+{
+  my-panel{
+    width: 98%;
+    padding: 1%;
+  }
+}

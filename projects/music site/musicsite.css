@@ -1,0 +1,15 @@
+.my-content{
+   max-width: 900px;
+   margin: 0 auto;
+   color:gray;
+   margin:0 auto;
+   .my-content{
+   background: #fff;
+   max-width:900px;
+    padding:30px;
+}
+
+.my-contenth1{
+    padding:0px;
+    margin:0px;
+}

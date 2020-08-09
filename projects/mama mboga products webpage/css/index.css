@@ -1,0 +1,29 @@
+header{
+background-color:  white;
+font-color: white;
+}
+
+header nav ul{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+
+}
+header nav li{
+  list-style: none;
+  float: left;
+}
+
+
+header nav ul li a{
+  color: #1a4526;
+  padding: 20px;
+  float:left;
+  font-size:20px;
+  text-decoration: none;
+
+
+}
+p{
+  font-color: white;
+}
