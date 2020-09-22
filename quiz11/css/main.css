@@ -1,0 +1,206 @@
+body{
+	background-color: #D1D1D1;
+	
+	font-family: arial, sans serif;
+}
+/*my name*/
+
+.one{
+	background-color:#2E4351;
+	min-height: 50px;
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-left: 20px;
+	height:2px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	font-size :5px;
+	padding-bottom: 5px;
+}
+/*what I do*/
+.two{
+	background-color: #3A5267;
+	min-height: 100px;
+	padding: 1.66%;
+	overflow: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.two h1{
+	color:white;
+	text-align: center;
+}
+.two p{
+	text-align: center;
+	color: #E0BF12;
+	letter-spacing: 5px;
+}
+/*about me*/
+.three{
+	color: #2E4351;
+	background-color: #f5ed18 ;
+	min-height: 100px;
+	padding: 1.66%;
+	overflow: auto;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: left;
+}
+/*my image and small description*/
+.four{
+	background-color:#FFFFFF;
+	min-height: 100px;
+	padding: 1.66%;
+	overflow: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.four p{
+color:#90909E;
+margin-left:100px;
+}
+
+
+  .image{
+ 	float: left;
+ 	padding-right: 200px;
+    
+ }
+ .image img{
+ 	height: 300px;
+ 	width: 300px;
+ }
+	
+.five{
+	background-color:#F7CE06;
+	color:  #455348;
+	min-height: 100px;
+	padding: 1.66%;
+	overflow: auto;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: left;
+    width: 450px;
+   
+}
+.six{
+	background-color:#FFFFFF ;
+	color:#909090 ;
+	padding: 1.66%;
+	width: 450px;
+	min-height: 150px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: left;
+}
+
+.seven{
+	position: absolute;
+	background-color:#F7CE06 ;
+	color:#455348; 
+	min-height: 150px;
+	padding: 1.66%;
+	overflow: auto;
+	margin-top: 20px;
+    top:687px;
+    right: 0;
+	margin-left: 100px;
+	margin-right: 220px;
+	text-align: left;
+    width: 450px;
+    float: right;
+
+
+}
+.eight{
+	position: absolute;
+	background-color: white;
+	color: #909090 ;
+	 top:800px;
+    right: 0;
+	padding: 1.66%;
+	width: 450px;
+	/*height: 250px;*/
+	min-height: 150px;
+	margin-left: 100px;
+	margin-right: 220px;
+	text-align: left;
+    float: right;
+    margin-top: 9px;
+    
+}
+
+.row2{
+	background-color: #F7CE06;
+	color: #445249;
+
+
+}
+.row2 th{
+	border: none;;
+}
+.row1{
+	background-color: #FFFFFF;
+	color: #959595;
+
+}
+table, th, td {
+  border: 1px solid #EBEBEB;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+table{
+	margin-left: 100px;
+	margin-top:50px;
+	margin-right: 100px;
+    min-height: 100px;
+	padding: 1.66%;
+
+}
+
+
+footer{
+	background-color: #2E4351;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 1.66%; 
+    margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+footer, p{
+	text-align: left;
+	margin-left: 50px;
+	color: #FFFFFF;
+}
+footer, h3{
+	margin-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+ h6{
+	color: #F2CB08;
+	padding-left: 50px;
+
+}
+
+@media screen and (max-width: 800px)
+{
+	my-info{
+		width: 98%;
+		padding: 1%;
+	}
+}
+@media screen and (max-width: 800px)
+{
+	my-panel{
+		width: 98%;
+		padding: 1%;
+	}
+}
